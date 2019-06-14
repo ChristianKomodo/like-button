@@ -4,8 +4,8 @@ The goal of this exercise is to create an Instagram-style "like" button which is
 ## Installation
 - Clone the repo
 - Navigate to the folder and run `npm install`
-- Start the server with `ng serve -o` (the `-o` flag opens a new browser window)
-- Click some of the "like" hearts
+- Start the server by running `ng serve -o` (the `-o` flag opens a new browser window)
+- Click some of the "like" hearts to see it work
 
 ## ToDo
 Make the individual movies come from one JSON object of titles, descriptions, and like counts.
