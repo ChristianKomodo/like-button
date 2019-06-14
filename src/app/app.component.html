@@ -1,6 +1,29 @@
-<h2>The "Like" Button</h2>
+<h2>{{ title }}</h2>
 <p>The point of this exercise is to create an Instagram-style "like" button which is a stand-alone component that once clicked, will become active in color, increment the number of likes, and display the current like total.</p>
 
 <br>
 
-<like></like>
+<like
+	[movieDescription]="movie.description"
+	[movieTitle]="movie.title"
+	[likesCount]="movie.likesCount"
+	[isActive]="movie.isLiked"
+></like>
+
+<br>
+
+<like
+	[movieDescription]="movie.description"
+	[movieTitle]="movie.title"
+	[likesCount]="movie.likesCount"
+	[isActive]="movie.isLiked"
+></like>
+
+<br>
+
+<like
+	[movieDescription]="movie.description"
+	[movieTitle]="movie.title"
+	[likesCount]="movie.likesCount"
+	[isActive]="movie.isLiked"
+></like>

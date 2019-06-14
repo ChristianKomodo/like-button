@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'like';
+	title = 'The "Like" Button';
+	
+	movie = {
+		title: 'Needs Title',
+		description: 'Lovely little movie with that one woman who was in that other movie.',
+		likesCount: 10,
+		isLiked: true
+	}
 }
