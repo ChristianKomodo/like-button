@@ -3,27 +3,9 @@
 
 <br>
 
-<like
+<like *ngFor="let movie of movies"
 	[movieDescription]="movie.description"
 	[movieTitle]="movie.title"
 	[likesCount]="movie.likesCount"
-	[isActive]="movie.isLiked"
-></like>
-
-<br>
-
-<like
-	[movieDescription]="movie.description"
-	[movieTitle]="movie.title"
-	[likesCount]="movie.likesCount"
-	[isActive]="movie.isLiked"
-></like>
-
-<br>
-
-<like
-	[movieDescription]="movie.description"
-	[movieTitle]="movie.title"
-	[likesCount]="movie.likesCount"
-	[isActive]="movie.isLiked"
-></like>
+	[isActive]="movie.isLiked">
+</like>
